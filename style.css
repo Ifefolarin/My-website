@@ -1,0 +1,19 @@
+body{
+background-color: black;
+border: solid white 1px;
+margin: 50px;
+border-radius: 50px;
+font-family: 'Average', serif;
+font-size: 1.5rem;
+text-align: center;
+color: white;
+}
+.profile-img{
+    border-radius: 50%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+
+}
